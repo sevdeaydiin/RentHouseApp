@@ -32,6 +32,89 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B06EA2352B6D948700BC866E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		B06EA2362B6D948E00BC866E /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		B06EA2372B6D94A600BC866E /* Product */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		B06EA2382B6D94C900BC866E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B06EA2392B6D950100BC866E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B06EA23F2B6D954600BC866E /* ViewModifiers */,
+				B06EA23E2B6D954100BC866E /* Locale */,
+				B06EA23D2B6D953700BC866E /* Fonts */,
+				B06EA23C2B6D953100BC866E /* Extension */,
+				B06EA23B2B6D952A00BC866E /* Enums */,
+				B06EA23A2B6D951D00BC866E /* Cache */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B06EA23A2B6D951D00BC866E /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		B06EA23B2B6D952A00BC866E /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		B06EA23C2B6D953100BC866E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		B06EA23D2B6D953700BC866E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		B06EA23E2B6D954100BC866E /* Locale */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Locale;
+			sourceTree = "<group>";
+		};
+		B06EA23F2B6D954600BC866E /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModifiers;
+			sourceTree = "<group>";
+		};
 		B0E2D4D22B5B063B00CE1737 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +134,11 @@
 		B0E2D4DD2B5B063B00CE1737 /* RentHouseApp */ = {
 			isa = PBXGroup;
 			children = (
+				B06EA2392B6D950100BC866E /* Utils */,
+				B06EA2382B6D94C900BC866E /* Resources */,
+				B06EA2372B6D94A600BC866E /* Product */,
+				B06EA2362B6D948E00BC866E /* Feature */,
+				B06EA2352B6D948700BC866E /* Core */,
 				B0E2D4DE2B5B063B00CE1737 /* RentHouseAppApp.swift */,
 				B0E2D4E02B5B063B00CE1737 /* ContentView.swift */,
 				B0E2D4E22B5B063D00CE1737 /* Assets.xcassets */,
