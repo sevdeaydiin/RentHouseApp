@@ -1,0 +1,31 @@
+/* 
+  Localizable.strings
+  RentHouseApp
+
+  Created by Sevde Aydın on 3.02.2024.
+  
+*/
+
+"signInFacebook" = "Sign in with Facebook";
+"signInApple" = "Sign in with Apple";
+"signInGoogle" = "Sign in with Google";
+"signUpGmail" = "Sign up with Gmail";
+
+// Login
+"welcomeBack" = "Welcome back!";
+"signIn" = "Sign In";
+"termAndCondition" = "By clicking \"Create account\", I agree to SnackOverflow's [TOS](www.com.vb) and [Privacy Policy.](ww.com.vb2)";
+
+// Button
+"getStarted" = "Get started";
+
+// General
+"emailHint" = "Write your email";
+"passwordHint" = "Write your password";
+
+//Tab
+"tabHome" = "Home";
+"tabMarket" = "Market";
+"tabCreate" = "Create";
+"tabWishlist" = "Wishlist";
+"tabAccount" = "Account";
