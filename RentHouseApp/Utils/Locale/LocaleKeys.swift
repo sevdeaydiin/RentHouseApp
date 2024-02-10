@@ -30,7 +30,7 @@ struct LocaleKeys {
         case home = "tabHome"
         case market = "tabMarket"
         case create = "tabCreate"
-        case wishlist = "Wishlist"
+        case favorite = "tabFavorite"
         case account = "tabAccount"
     }
 }
