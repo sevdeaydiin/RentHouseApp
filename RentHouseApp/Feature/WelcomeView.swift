@@ -14,12 +14,9 @@ struct WelcomeView: View {
     var body: some View {
         ZStack {
             LinearGradient(colors: gradient, startPoint: .top, endPoint: .bottom)
-            
-            
             //Image(Images.onboard.rawValue)
             //    .resizable()
             //    .frame(width: ScreenSize.width, height: ScreenSize.height)
-            
             
             BodyView()
         }.ignoresSafeArea(.all)
@@ -33,6 +30,7 @@ struct WelcomeView: View {
 
 private struct BodyView: View {
     var body: some View {
+        
         VStack {
             Spacer()
                 .frame(height: ScreenSize.height * 0.12)
@@ -55,7 +53,7 @@ private struct BodyView: View {
                 .frame(width: DividerViewSize.heigh, height: DividerViewSize.normal)
                 .padding(.all, PagePadding.All.normal.rawValue)
             
-            CustomButton(onTap: {}, title: "Sign in with Gmail")
+            CustomButton(onTap: {}, title: LocaleKeys.Auth.email.rawValue.locale())
                 .padding(EdgeInsets.paddingAll)
             
         }.padding(20)

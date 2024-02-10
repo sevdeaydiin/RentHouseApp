@@ -10,11 +10,27 @@ import SwiftUI
 struct MainTabView: View {
     var body: some View {
         TabView {
-            ForEach()
-        }
+            ForEach(HomeTabItem.tabItems) { item in
+                item.page.tabItem {
+                    TabIconLabel(iconName: item.model.iconName)
+                }
+            }
+        }.accentColor(.clooney)
+            
+            
     }
 }
 
 #Preview {
     MainTabView()
+}
+
+private struct TabIconLabel: View {
+    let iconName: String
+    var body: some View {
+        VStack {
+            Image(systemName: iconName)
+            Text(LocalizedStringKey(iconName))
+        }
+    }
 }
